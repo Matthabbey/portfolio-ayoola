@@ -1,7 +1,8 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Navbar, Container, Nav } from 'react-bootstrap'
 
 const NavBar = () => {
+    const [activeLink, setActiveLink] = useState('home')
   return (
         <Navbar expand="lg">
 
