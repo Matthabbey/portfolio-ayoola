@@ -13,6 +13,11 @@
   font-weight: 400;
   src: url('./assets//fonts/CentraNo2-Book.ttf');
 }
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 #root {
   max-width: 1280px;
   margin: 0 auto;
