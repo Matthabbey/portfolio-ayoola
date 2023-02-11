@@ -1,5 +1,5 @@
 @font-face{
-  font-family: Centra;
+  font-family: 'Centra';
   font-weight: 700;
   src: url('./assets//fonts/CentraNo2-Bold.ttf');
 }
@@ -30,7 +30,8 @@ body{
   position: relative;
   background-color: #121212 !important;
   color: #fff !important;
-  
+  font-family: 'Centra', sans-serif;
+
 }
 #root {
   max-width: 1280px;
