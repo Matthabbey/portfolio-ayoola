@@ -3,6 +3,7 @@ import { Navbar, Container, Nav } from 'react-bootstrap'
 
 const NavBar = () => {
     const [activeLink, setActiveLink] = useState('home')
+    const [scroll, setScroll] = useState(false)
   return (
         <Navbar expand="lg">
 
