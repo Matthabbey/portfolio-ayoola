@@ -13,6 +13,8 @@ const NavBar = () => {
                 setScroll(false)
             }
         }
+        window.addEventListener("scroll", onScroll)
+        return () => window.removeEventListener("scroll", onScroll)
     }, [])
   return (
         <Navbar expand="lg">
