@@ -17,7 +17,7 @@ const NavBar = () => {
         return () => window.removeEventListener("scroll", onScroll)
     }, [])
   return (
-        <Navbar expand="lg">
+        <Navbar expand="lg" className={ scroll ? "scrolled" : ""}>
 
             <Container>
                 <Navbar.Brand href='#home'>
@@ -28,9 +28,9 @@ const NavBar = () => {
                 </Navbar.Toggle>
                 <Navbar.Collapse>
                     <Nav className="me-auto">
-                        <Nav.Link href='#home'>Home</Nav.Link>
-                        <Nav.Link href='#skills'>Skills </Nav.Link>
-                        <Nav.Link href='#projects'>Projects </Nav.Link>
+                        <Nav.Link href='#home' className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'}>Home</Nav.Link>
+                        <Nav.Link href='#skills' className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'}>Skills </Nav.Link>
+                        <Nav.Link href='#projects' className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'}>Projects </Nav.Link>
                     </Nav>
                     <span className="navbar-text">
                         <div className="social-icons">
