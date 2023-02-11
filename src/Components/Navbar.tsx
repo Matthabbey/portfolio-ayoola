@@ -1,9 +1,19 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { Navbar, Container, Nav } from 'react-bootstrap'
 
 const NavBar = () => {
     const [activeLink, setActiveLink] = useState('home')
     const [scroll, setScroll] = useState(false)
+
+    useEffect(()=>{
+        const onScroll = () =>{
+            if(window.scrollY > 50){
+                setScroll(true)
+            }else{
+                setScroll(false)
+            }
+        }
+    }, [])
   return (
         <Navbar expand="lg">
 
