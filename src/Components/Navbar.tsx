@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Navbar, Container, Nav } from 'react-bootstrap'
+import {BsLinkedin, BsFacebook} from 'react-icons/bs'
 
 const NavBar = () => {
     const [activeLink, setActiveLink] = useState('home')
@@ -38,8 +39,8 @@ const NavBar = () => {
                     </Nav>
                     <span className="navbar-text">
                         <div className="social-icons">
-                            <a href="#"></a>
-                            <a href="#"></a>
+                            <a href="#"><BsFacebook/></a>
+                            <a href="#"><BsLinkedin/></a>
                             <a href="#"></a>
                         </div>
                         <button onClick={()=> console.log()}><span>Let's Connect</span></button>
@@ -51,4 +52,4 @@ const NavBar = () => {
   )
 }
 
-export default Navbar
+export default NavBar
