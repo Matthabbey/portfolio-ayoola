@@ -20,9 +20,9 @@ const NavBar = () => {
         setActiveLink(value)
     }
   return (
-  <div>
-        <nav>
-            {/* <img src={Logo} alt="" /> */}
+  <div className='min-h-screen'>
+        <nav className='py-12 mb-12 justify-between'>
+            <img src={Logo} alt="" />
             <h1>Ayoola</h1>
             <ul>
                 <li >Home</li>
