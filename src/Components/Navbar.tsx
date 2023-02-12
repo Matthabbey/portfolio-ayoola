@@ -20,18 +20,22 @@ const NavBar = () => {
     setActiveLink(value);
   };
   return (
-    <div className="min-h-screen">
-      <nav className="py-12 mb-12 flex justify-between">
+    <div className="min-h-screen bg-">
+      <nav className="py-5 mb-12 ml-10 flex justify-between cursor-pointer">
         <div>
-          <img src={Logo} alt="" />
+          <img src={Logo} alt="" className="h-5 w-10" />
           <h1 className="text-textColor">Ayoola</h1>
         </div>
-        <ul>
+
+        <ul className="flex justify-around items-center">
+
+        <div className="flex items-center space-x-5 px-9 cursor-pointer">
           <li>Home</li>
           <li>Skills</li>
           <li>Portfolios</li>
           <li>Recommendation</li>
           <li>Contact</li>
+        </div>
         </ul>
       </nav>
     </div>

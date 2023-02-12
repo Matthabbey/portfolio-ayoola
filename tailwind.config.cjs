@@ -44,7 +44,7 @@ module.exports = {
         "2xl": "1536px",
       },
       colors: {
-
+        bgColor: '#7B4AE2',
         headingColor: "#2e2e2e",
         textColor: "#8b5cf6",
         cartNumBg: "#e80013",
