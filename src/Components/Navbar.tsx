@@ -20,12 +20,12 @@ const NavBar = () => {
         setActiveLink(value)
     }
   return (
-  <div className=' bg-white '>
+  <div>
         <nav>
-            <img src={Logo} alt="" />
+            {/* <img src={Logo} alt="" /> */}
             <h1>Ayoola</h1>
             <ul>
-                <li>Home</li>
+                <li >Home</li>
                 <li>Skills</li>
                 <li>Portfolios</li>
                 <li>Recommendation</li>
