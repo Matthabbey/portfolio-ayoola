@@ -42,8 +42,8 @@ const NavBar = () => {
                             <a href="#"><BsFacebook/></a>
                             <a href="#"><BsLinkedin/></a>
                             <a href="#"></a>
-                        </div>
                         <button onClick={()=> console.log()}><span>Let's Connect</span></button>
+                        </div>
                     </span>
                 </Navbar.Collapse>
             </Container>
