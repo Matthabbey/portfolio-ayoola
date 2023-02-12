@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { Navbar, Container, Nav } from 'react-bootstrap'
-import {BsLinkedin, BsFacebook} from 'react-icons/bs'
-
+import Logo from '../public/Logo.svg'
 const NavBar = () => {
     const [activeLink, setActiveLink] = useState('home')
     const [scroll, setScroll] = useState(false)
@@ -23,7 +21,17 @@ const NavBar = () => {
     }
   return (
   <div className=' bg-white '>
-    Hello World
+        <nav>
+            <img src={Logo} alt="" />
+            <h1>Ayoola</h1>
+            <ul>
+                <li>Home</li>
+                <li>Skills</li>
+                <li>Portfolios</li>
+                <li>Recommendation</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
   </div>
   )
 }
