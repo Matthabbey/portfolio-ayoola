@@ -13,9 +13,10 @@ function App() {
     <div className="App">
       <NavBar />
       <Home />
-        <Routes>
+      <Skill />
+        {/* <Routes>
           <Route path={'/skill-set'} element={<Skill/>} />
-        </Routes>
+        </Routes> */}
     </div>
   )
 }

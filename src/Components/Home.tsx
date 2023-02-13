@@ -10,15 +10,15 @@ const Home = () => {
           Akinpelu Abiodun M.
         </h1>
         <p className="py-0">Full-Stack Developer </p>
-        <div className="text-2xl flex gap-5 py-4 rounded w-50 h-50 cursor-pointer">
+        <div className="text-2xl flex gap-5 py-2 rounded w-50 h-50 cursor-pointer">
           <BsLinkedin />
           <BsGithub />
           <BsInstagram />
         </div>
       </div>
-      <img src={HeadIcon} alt="" className="text-2xl p-4" />
+      <img src={HeadIcon} alt="" width={600} height={500} />
 
-      <div className="text-xl flex gap-2 items-center text-cardOverlay cursor-pointer border rounded-lg border-cardOverlay p-2">
+      <div className="text-xl flex gap-2 items-center text-cardOverlay cursor-pointer rounded-lg border border-bgShadow p-2">
         <BsWhatsapp className="text-green-800"/>
         <h3>Whatsapp!</h3>
       </div>

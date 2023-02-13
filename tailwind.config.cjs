@@ -45,6 +45,8 @@ module.exports = {
       },
       colors: {
         bgColor: '#7B4AE2',
+        bgShadow: '#310062',
+        bgbackGround: '#1E1E1E',
         headingColor: "#2e2e2e",
         textColor: "#8b5cf6",
         cartNumBg: "#e80013",

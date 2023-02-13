@@ -26,7 +26,7 @@
 body{
   font-weight: 400;
   position: relative;
-  overflow: hidden;
+  /* overflow: hidden; */
   background-color: #090E16;
   color: #fff;
   font-family: 'Centra', sans-serif;
