@@ -32,7 +32,7 @@ const NavBar = () => {
         <div className="flex items-center space-x-5 px-9 cursor-pointer">
           <li>Home</li>
           <li>Skills</li>
-          <li className="bg-bgColor py-1 px-2 rounded">Resume</li>
+          <li className="bg-bgColor py-1 px-2 rounded-md">Resume</li>
           <li>Contact</li>
         </div>
         </ul>

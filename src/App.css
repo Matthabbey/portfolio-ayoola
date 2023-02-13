@@ -8,12 +8,12 @@
   src: url('./assets//fonts/CentraNo2-Bold.ttf');
 }
 @font-face{
-  font-family: Centra;
+  font-family: "Centra";
   font-weight: 500;
   src: url('./assets//fonts/CentraNo2-Medium.ttf');
 }
 @font-face{
-  font-family: Centra;
+  font-family: "Centra";
   font-weight: 400;
   src: url('./assets//fonts/CentraNo2-Book.ttf');
 }
@@ -26,6 +26,7 @@
 body{
   font-weight: 400;
   position: relative;
+  overflow: hidden;
   background-color: #090E16;
   color: #fff;
   font-family: 'Centra', sans-serif;

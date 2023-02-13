@@ -1,28 +1,29 @@
-import React from 'react'
-import HeadIcon from '../public/theHead.svg'
-import {BsInstagram, BsGithub,BsLinkedin } from 'react-icons/bs'
+import React from "react";
+import HeadIcon from "../public/theHead.svg";
+import { BsInstagram, BsGithub, BsLinkedin, BsWhatsapp } from "react-icons/bs";
 
 const Home = () => {
   return (
-    <div>
-        <div>
-            <h1>Akinpelu Abiodun Matthew</h1>
-            <p>Full-Stack Developer </p>
-            <ul>
-                <li><BsLinkedin/></li>
-                <li><BsGithub/></li>
-                <li><BsInstagram/></li>
-            </ul>
+    <div className="flex gap-10 justify-center items-center text-cardOverlay">
+      <div>
+        <h1 className=" text-2xl px-0 text-white font-medium">
+          Akinpelu Abiodun M.
+        </h1>
+        <p className="py-0">Full-Stack Developer </p>
+        <div className="text-2xl flex gap-5 py-4 rounded w-50 h-50 cursor-pointer">
+          <BsLinkedin />
+          <BsGithub />
+          <BsInstagram />
         </div>
-        <img src={HeadIcon} alt="" />
+      </div>
+      <img src={HeadIcon} alt="" className="text-2xl p-4" />
 
-        <div>
-            <h3>
-            Whatsapp Instant Chat
-            </h3>
-        </div>
+      <div className="text-xl flex gap-2 items-center text-cardOverlay cursor-pointer border rounded-lg border-cardOverlay p-2">
+        <BsWhatsapp className="text-green-800"/>
+        <h3>Whatsapp!</h3>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
