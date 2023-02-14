@@ -5,6 +5,7 @@ import NavBar from './Components/Navbar'
 import Home from './Components/Home'
 import { Route, Router, Routes } from 'react-router-dom'
 import Skill from './Components/Skill'
+import Cards from './Components/Cards'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,6 +15,7 @@ function App() {
       <NavBar />
       <Home />
       <Skill />
+      <Cards />
         {/* <Routes>
           <Route path={'/skill-set'} element={<Skill/>} />
         </Routes> */}

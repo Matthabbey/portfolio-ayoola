@@ -44,6 +44,7 @@ module.exports = {
         "2xl": "1536px",
       },
       colors: {
+        bgNew: "#7B4AE2",
         bgColor: '#7B4AE2',
         bgShadow: '#310062',
         bgbackGround: '#1E1E1E',
