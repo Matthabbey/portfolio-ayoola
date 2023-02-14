@@ -19,32 +19,32 @@ const Skill = () => {
         <div className=" flex justify-center gap-20 items-center mb-8">
           <div className="border border-bgShadow p-8 flex flex-col  items-center rounded-md max-auto">
             <img src={CodeLogo} alt="" className="w-12 h-12"/>
-            <p className="text-lightOverlay text-sm">Over 2years</p>
-            <h3>Programmer</h3>
+            <p className="text-lightOverlay text-sm font-thin">Over 2years</p>
+            <p className="text-sm font-thin">Programmer</p>
           </div>
           <div className="border border-bgShadow p-8 flex flex-col rounded-md items-center text-center">
             <img src={ProjectLogo} alt="" className="w-12 h-12" />
-            <p className="text-lightOverlay text-sm">Over 2years</p>
-            <h3>Programmer</h3>
+            <p className="text-lightOverlay text-sm font-thin">Over 2years</p>
+            <p className="text-sm font-thin">Programmer</p>
           </div>
           <div className="border border-bgShadow p-8 rounded-md flex flex-col items-center justify-center text-center ">
             <img src={DesignLogo} alt=""  className="w-12 h-12"/>
             <p className="text-lightOverlay text-sm font-thin">Over 2years</p>
-            <h3>Programmer</h3>
+            <p className="text-sm font-thin">Programmer</p>
           </div>
         </div>
-        <div className=" justify-center border border-bgShadow gap-16 p-0 flex w-[50%] mx-[auto] rounded-md">
+        <div className=" justify-center border border-bgShadow gap-[90px] p-0 flex w-[50%] mx-[auto] rounded-md">
           <div>
-            <p className="text-center text-lightOverlay">Developer</p>
-            <h3 className="text-bgColor text-center">Full-Stack Developer</h3>
+            <p className="text-center text-lightOverlay text-sm font-thin">Developer</p>
+            <p className="text-bgColor text-center text-sm font-thin">Full-Stack Developer</p>
           </div>
           <div>
-            <p className="text-center text-lightOverlay">Developer</p>
-            <h3 className="text-bgColor text-center">Full-Stack Developer</h3>
+            <p className="text-center text-lightOverlay text-sm font-thin">Developer</p>
+            <p className="text-bgColor text-center text-sm font-thin">Full-Stack Developer</p>
           </div>
           <div>
-            <p className="text-center text-lightOverlay">Developer</p>
-            <h3 className="text-bgColor text-center">Full-Stack Developer</h3>
+            <p className="text-center text-lightOverlay text-sm font-thin">Developer</p>
+            <p className="text-bgColor text-center text-sm font-thin">Full-Stack Developer</p>
           </div>
         </div>
       </div>
