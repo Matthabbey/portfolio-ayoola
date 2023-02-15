@@ -3,17 +3,17 @@
 @tailwind utilities;
 
 @font-face{
-  font-family: 'Centra';
+  font-family: 'Raleway';
   font-weight: 700;
   src: url('./assets//fonts/CentraNo2-Bold.ttf');
 }
 @font-face{
-  font-family: "Centra";
+  font-family: "Raleway";
   font-weight: 500;
   src: url('./assets//fonts/CentraNo2-Medium.ttf');
 }
 @font-face{
-  font-family: "Centra";
+  font-family: "Raleway";
   font-weight: 200;
   src: url('./assets//fonts/CentraNo2-Book.ttf');
 }
@@ -24,10 +24,10 @@
 }
 
 body{
-  font-weight: 400;
+  font-weight: 200;
   position: relative;
   /* overflow: hidden; */
   background-color: #090E16;
   color: #fff;
-  font-family: 'Centra', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
