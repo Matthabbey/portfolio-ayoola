@@ -5,17 +5,17 @@
 @font-face{
   font-family: 'Raleway';
   font-weight: 700;
-  src: url('./assets//fonts/CentraNo2-Bold.ttf');
+  src: url('./assets/fonts/Raleway/Raleway-VariableFont_wght.ttf');
 }
 @font-face{
   font-family: "Raleway";
   font-weight: 500;
-  src: url('./assets//fonts/CentraNo2-Medium.ttf');
+  src: url('./assets/fonts/Raleway/Raleway-VariableFont_wght.ttf');
 }
 @font-face{
   font-family: "Raleway";
   font-weight: 200;
-  src: url('./assets//fonts/CentraNo2-Book.ttf');
+  src: url('./assets/fonts/Raleway/Raleway-VariableFont_wght.ttf');
 }
 *{
   margin: 0;
