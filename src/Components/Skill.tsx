@@ -8,7 +8,7 @@ const Skill = () => {
     <div className=" justify-center">
       <hr className="h-px my-8 border-0 dark:bg-gray-900" />
       <h1 className="text-3xl py-2 items-center text-center text-bgColor ">Skill Set</h1>
-      <p className="text-sm py-4 leading-7 text-center">
+      <p className="text-sm py-4 leading-6 text-center px-[30%] text-lightOverlay pb-10 font-thin">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. A ipsum
         obcaecati ducimus, deleniti vel iure impedit ullam laboriosam incidunt
         aut sunt placeat cum, voluptatibus commodi! Accusantium praesentium
