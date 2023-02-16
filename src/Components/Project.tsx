@@ -7,21 +7,21 @@ import ProjectImg from "../public/image.png"
 const Project = () => {
   return (
     <div>
-      <h1>Portfolio</h1>
-      <div>
-        <p>List of Projects Completed</p>
-        <div>
-          <div>
-            <img src={DesignLogo} alt="" />
-            <span>UI Design</span>
+      <h1 className="ml-[5%] mb-4 border border-bgShadow w-[7%] text-center rounded-md text-cardOverlay">Portfolio</h1>
+      <div className="flex justify-between pr-[5%]">
+        <p className="pl-[5%] font-extrabold">List of Projects Completed</p>
+        <div className="flex gap-5">
+          <div className="border border-bgShadow w-[55%] h-[55%] px-0 flex text-center gap-2 rounded-md">
+            <img src={DesignLogo} alt="" width={30}/>
+            <button className="pt-1 text-cardOverlay">UI Design</button>
           </div>
-          <div>
-            <img src={ProjectLogo} alt="" />
-            <span>UI Design</span>
+          <div className="border border-bgShadow w-[65%] h-[55%] px-0 flex text-center gap-2 rounded-md">
+            <img src={ProjectLogo} alt="" width={35} />
+            <button className="pt-1 text-cardOverlay">UI Design</button>
           </div>
-          <div>
-            <img src={CodeLogo} alt="" />
-            <span>UI Design</span>
+          <div className="border border-bgShadow w-[65%] h-[55%] px-1 flex text-center gap-2 rounded-md">
+            <img src={CodeLogo} alt="" width={35}/>
+            <button className="pt-1 text-cardOverlay">UI Design</button>
           </div>
         </div>
       </div>
