@@ -36,11 +36,11 @@ const Skill = () => {
         <div className=" justify-center border border-bgShadow gap-[90px] p-0 flex w-[50%] mx-[auto] rounded-md">
           <div>
             <p className="text-center text-lightOverlay text-sm font-thin">Developer</p>
-            <p className="text-bgColor text-center text-sm font-thin">Full-Stack Developer</p>
+            <p className="text-bgColor text-center text-sm font-thin">Front-end Developer</p>
           </div>
           <div>
             <p className="text-center text-lightOverlay text-sm font-thin">Developer</p>
-            <p className="text-bgColor text-center text-sm font-thin">Full-Stack Developer</p>
+            <p className="text-bgColor text-center text-sm font-thin">Back-end Developer</p>
           </div>
           <div>
             <p className="text-center text-lightOverlay text-sm font-thin">Developer</p>
