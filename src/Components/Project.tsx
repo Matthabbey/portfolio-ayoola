@@ -11,22 +11,22 @@ const Project = () => {
       <div className="flex justify-between pr-[5%]">
         <p className="pl-[5%] font-extrabold">List of Projects Completed</p>
         <div className="flex gap-5">
-          <div className="border border-bgShadow w-[55%] h-[55%] px-0 flex text-center gap-2 rounded-md">
-            <img src={DesignLogo} alt="" width={30}/>
+          <div className="border border-bgShadow w-[70%] h-[55%] px-0 flex text-center gap-2 rounded-md">
+            <img src={DesignLogo} alt="" width={40}/>
             <button className="pt-1 text-cardOverlay">UI Design</button>
           </div>
-          <div className="border border-bgShadow w-[65%] h-[55%] px-0 flex text-center gap-2 rounded-md">
+          {/* <div className="border border-bgShadow w-[65%] h-[55%] px-0 flex text-center gap-2 rounded-md">
             <img src={ProjectLogo} alt="" width={35} />
             <button className="pt-1 text-cardOverlay">UI Design</button>
-          </div>
-          <div className="border border-bgShadow w-[65%] h-[55%] px-1 flex text-center gap-2 rounded-md">
+          </div> */}
+          <div className="border border-bgShadow w-[75%] h-[55%] px-1 flex text-center gap-2 rounded-md">
             <img src={CodeLogo} alt="" width={35}/>
             <button className="pt-1 text-cardOverlay">UI Design</button>
           </div>
         </div>
       </div>
 
-      <div className="px-[5%] gap-5 grid grid-cols-4">
+      <div className="px-[7%] py-[3%] gap-5 grid grid-cols-4">
         <div className="border border-bgShadow w-[100%] px-8 rounded-md py-5">
           <p className="font-extrabold pb-2">Move.it</p>
           <p className="text-cardOverlay pb-8">

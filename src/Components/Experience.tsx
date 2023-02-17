@@ -1,14 +1,30 @@
 import React from 'react'
+import { BsGithub } from 'react-icons/bs'
+import { FaReact, FaNodeJs, FaDocker } from 'react-icons/fa'
+import { SiJavascript, SiMongodb, SiMysql, SiScrumalliance, SiTailwindcss, SiTypescript } from 'react-icons/si'
 
 const Experience = () => {
   return (
-    <div>
-        <p>Skills - Experience</p>
-        <h1>Technologies and Skills</h1>
+    <div className='justify-center items-center'>
+        <p className='text-center'>Skills - Experience</p>
+        <h1 className='text-center'>Technologies and Skills</h1>
 
         <div>
-            <h3>Technologies I use daily</h3>
-            
+            <h3 className='text-center'>Technologies I use daily</h3>
+            <div className='items-center font-extrabold flex gap-5'>
+            <FaReact className='font-extrabold'/>
+            <FaNodeJs/>
+            <SiJavascript/>
+            <BsGithub/>
+            <SiTypescript/>
+            <SiMongodb/>
+            <FaDocker />
+            <SiMysql/>
+            {/* <GrGraphQl/> */}
+            <SiScrumalliance />
+            <SiTailwindcss />
+
+            </div>
         </div>
     </div>
   )
