@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
 import Logo from "../public/Logo.svg";
 const NavBar = () => {
   const [activeLink, setActiveLink] = useState("home");
