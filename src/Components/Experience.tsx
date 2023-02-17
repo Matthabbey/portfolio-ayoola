@@ -2,17 +2,17 @@ import React from 'react'
 import { BsGithub } from 'react-icons/bs'
 import { FaReact, FaNodeJs, FaDocker } from 'react-icons/fa'
 import { SiJavascript, SiMongodb, SiMysql, SiScrumalliance, SiTailwindcss, SiTypescript } from 'react-icons/si'
+import reactLogo from '../public/reactLoogo.svg'
+import nodejsLogo from '../public/nodejs.png'
 
 const Experience = () => {
   return (
     <div className='justify-center items-center'>
-        <p className='text-center'>Skills - Experience</p>
-        <h1 className='text-center'>Technologies and Skills</h1>
+        <h1 className='text-center pb-10'>Technologies and Skills</h1>
 
         <div>
-            <h3 className='text-center'>Technologies I use daily</h3>
-            <div className='items-center font-extrabold flex gap-5'>
-            <FaReact className='font-extrabold'/>
+            <div className='items-center flex gap-5 justify-center '>
+            {/* <FaReact width={550}/>
             <FaNodeJs/>
             <SiJavascript/>
             <BsGithub/>
@@ -22,7 +22,9 @@ const Experience = () => {
             <SiMysql/>
             {/* <GrGraphQl/> */}
             <SiScrumalliance />
-            <SiTailwindcss />
+            <SiTailwindcss className=''/>
+            <img src={reactLogo} alt="" width={30} className='bg-none' />
+            <img src={nodejsLogo} alt="" width={25}/>
 
             </div>
         </div>

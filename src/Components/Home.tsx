@@ -14,7 +14,7 @@ const Home = () => {
           <BsLinkedin onClick={()=>window.open("https://www.linkedin.com/in/abiodun-akinpelu-20147a176/")}
  />
           <BsGithub  onClick={() => window.open("https://github.com/matthabbey")}/>
-          <BsInstagram />
+          <BsInstagram onClick={()=> window.open("https://www.instagram.com/matthabey/")}/>
         </div>
       </div>
       <img src={HeadIcon} alt="" width={600} height={500} />
